@@ -1,0 +1,606 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- </head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html> -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl "><b><i>OpenAi</i></b></span>
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="playground.html">Playground</a>
+        <a class="mr-5 hover:text-gray-900" href="fine.html">Fine-Tuning</a>
+        <a class="mr-5 hover:text-gray-900" href="assitant.html">Assistant</a>
+        <a class="mr-5 hover:text-gray-900" href="api key.html">API Kays</a>
+        <a class="mr-5 hover:text-gray-900" href="usage.html">Usage</a>
+        <a class="mr-5 hover:text-gray-900" href="files.html">Files</a>
+        <a class="mr-5 hover:text-gray-900" href="setting.html">Setting</a>
+      </nav>
+
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <img alt="feature" class="object-cover object-center h-full w-full"
+          src="https://cdn.arstechnica.net/wp-content/uploads/2023/09/heart-640x366.jpg">
+      </div>
+      <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+        <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Playground</h2>
+            <p class="leading-relaxed text-base">Of course! What specifically would you like assistance with for your
+              web development project? Are you looking for guidance on planning, design, coding, or something else? Let
+              me know how I can help! </p>
+
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Overview</h2>
+            <p class="leading-relaxed text-base">ChatGPT is an AI language model developed by OpenAI. It is designed to
+              understand and generate human-like text based on the input it receives.</p>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">OpenAi Tool</h2>
+            <p class="leading-relaxed text-base">The OpenAI API can be applied to virtually any task. We offer a range
+              of models with different capabilities and price points, as well as the ability to fine-tune custom models.
+            </p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full"
+            src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/AI6WF2NTHZKP5FKG3MSBSWQRFI.jpg">
+        </div>
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-10 h-10" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex flex-col items-center text-center justify-center">
+              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Playground</h2>
+              <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              <p class="text-base">ChatGPT uses a technique called deep learning, specifically a variant of the
+                Transformer architecture, to process and generate text. It has been trained on a large dataset of
+                diverse text from the internet.</p>
+            </div>
+          </div>
+          <div
+            class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">
+              <b>OpenAI</b> is an artificial intelligence research laboratory and company. It aims to develop and
+              promote friendly AI in such a way that benefits humanity as a whole. OpenAI conducts research in various
+              areas of artificial intelligence, including natural language processing, reinforcement learning, and
+              robotics. Additionally, it works on developing AI technologies and making them accessible to the public.
+              The organization also advocates for responsible and ethical AI development, emphasizing transparency and
+              safety in AI systems.
+            </p>
+            <a class="text-indigo-500 inline-flex items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">API Keys
+          <br class="hidden lg:inline-block">Advance
+        </h1>
+        <p class="mb-8 leading-relaxed">Your secret API keys are listed below. Please note that we do not display your
+          secret API keys again after you generate them.
+          Do not share your API key with others, or expose it in the browser or other client-side code. In order to
+          protect the security of your account, OpenAI may also automatically disable any API key that we've found has
+          leaked publicly.
+          Enable tracking to see usage per API key on the Usage page.If you belong to multiple organizations, this
+          setting controls which organization is used by default when making requests with the API keys above.
+        </p>
+
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start
+            Verification</button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Done</button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero"
+          src="https://imageio.forbes.com/specials-images/imageserve/63abee1c40cdcf4a3fcc7319/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds">
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero"
+          src="https://assets-global.website-files.com/6344c9cef89d6f2270a38908/64148ed756708f9b82464c96_image-of-hand-holding-an-ai-face-looking-at-the-words-chatgpt-openai.webp">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Assitant
+          <br class="hidden lg:inline-block">Creat +
+        </h1>
+        <p class="mb-8 leading-relaxed">OpenAI Assistant, also known as GPT (Generative Pre-trained Transformer), is an
+          advanced language model developed by OpenAI. It is designed to understand and generate human-like text based
+          on the input it receives. OpenAI Assistant uses a variant of the Transformer architecture and has been trained
+          on a massive dataset of diverse text from the internet, allowing it to generate responses that are
+          contextually relevant and coherent.</p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Create+</button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Done</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Fine Tuning</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">No fine-tuning jobs found.
+          You can create a fine-tuning job below or using the OpenAI API. This language model can be used for various
+          tasks such as answering questions, generating creative content, providing assistance, and more.</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://imageio.forbes.com/specials-images/imageserve/63fefbce18935583292d39ac/The-Best-Examples-of-What-You-Can-Do-With-ChatGPT/960x0.jpg?height=440&width=711&fit=bounds">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://blog.hubspot.com/hs-fs/hubfs/chatgpt%20prompts.jpg?width=595&height=400&name=chatgpt%20prompts.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block"
+              src="https://miro.medium.com/v2/resize:fit:1200/0*GyQg-aufVE36opAp.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block"
+              src="https://www.atriainnovation.com/wp-content/uploads/2023/01/Portada-1080x675.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043.jpg?resize=1200,798">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-05/17/full/1684298833-9691.jpeg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Files</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          OpenAI provides various resources and tools for developers and researchers. Some of the files and resources
+          you might encounter related to OpenAI include.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://media.licdn.com/dms/image/D4E12AQHmt2HavWsIoQ/article-cover_image-shrink_720_1280/0/1697380698315?e=2147483647&v=beta&t=nxMyxvVygfMhi3TSsv_8UCsSQykVDA77ps2rjAA4_ko">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://www.visualcapitalist.com/wp-content/uploads/2023/01/generative-ai-SHARE.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://assets.kpmg.com/is/image/kpmg/a-sneak-peek-into-2030-with-generative-ai-2000x500:cq5dam.web.1200.600">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://www.datasciencecentral.com/wp-content/uploads/2023/09/Generative-AI-vs-Conversational-AI-1.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://imageio.forbes.com/specials-images/imageserve/64b6992ab0207ea57f6cab16//960x0.jpg?height=473&width=711&fit=bounds">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://gjia.georgetown.edu/wp-content/uploads/sites/20/2023/05/ai-2000x1125.jpeg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Usage</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">These are just a few examples of how ChatGPT can be
+          utilized across different industries and applications. Its flexibility and versatility make it a valuable tool
+          for automating tasks, enhancing user experiences, and improving efficiency in various domains.</p>
+      </div>
+      <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="table-auto w-full text-left whitespace-no-wrap">
+          <thead>
+            <tr>
+              <th
+                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
+                06-Feb</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">13-Feb</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">20-Feb</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">27-Feb</th>
+              <th
+                class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br">
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-3">$1</td>
+              <td class="px-4 py-3">-</td>
+              <td class="px-4 py-3">-</td>
+              <td class="px-4 py-3 text-lg text-gray-900">-</td>
+              <td class="w-10 text-center">
+                <input name="plan" type="radio">
+              </td>
+            </tr>
+            <tr>
+              <td class="border-t-2 border-gray-200 px-4 py-3">$0.75</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">-</td>
+              <td class="border-t-2 border-gray-200 w-10 text-center">
+                <input name="plan" type="radio">
+              </td>
+            </tr>
+            <tr>
+              <td class="border-t-2 border-gray-200 px-4 py-3">$0.25</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">-</td>
+              <td class="border-t-2 border-gray-200 w-10 text-center">
+                <input name="plan" type="radio">
+              </td>
+            </tr>
+            <tr>
+              <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">$0</td>
+              <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+              <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">-</td>
+              <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                <input name="plan" type="radio">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Feb
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        <button
+          class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Activity</button>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          1</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="/icon.png">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl"><b>Setting</b></h2>
+            <p class="leading-relaxed">
+              The <b>"setting"</b> of OpenAI typically refers to the context in which OpenAI operates, including its
+              goals, principles, and approach to artificial intelligence research and development.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          2</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl"><b>Mission</b></h2>
+            <p class="leading-relaxed"><b>Mission:</b> OpenAI's mission is to ensure that artificial general
+              intelligence (AGI) benefits all of humanity. AGI refers to AI systems that possess the ability to
+              understand, learn, and apply knowledge across a wide range of tasks and domains, akin to human
+              intelligence..</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          3</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl"><b>Access and Accessibility</b></h2>
+            <p class="leading-relaxed"><b>Access and Accessibility:</b> OpenAI seeks to make its research, technologies,
+              and tools accessible to a broad audience, including researchers, developers, policymakers, and the general
+              public.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          4</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl"><b>Collaboration</b></h2>
+            <p class="leading-relaxed"><b>Collaboration:</b> OpenAI collaborates with other research institutions,
+              industry partners, and policymakers to advance the field of artificial intelligence and address societal
+              challenges. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWV415AQVYRhWoFF2hKYWPzV0qEEy3MOu-SH1GKNQGYRe23oTl0VF8e0-xhPqcEavmt5_Meg">
+            <p class="leading-relaxed">Sam Altman was born in Chicago and moved as a young boy to the suburbs of St.
+              Louis, Missouri. He showed an aptitude for numbers and computing at an early age. He knew he was gay but
+              did not come out to his parents until he was a teenager. “Growing up gay in the Midwest in the 2000s was
+              not the most awesome thing,” he said in a New Yorker interview in 2016.</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Sam Altman
+
+            </h2>
+            <p class="text-gray-500">CEO of OpenAI</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJ_euxO8eI0yXBWI44H_i7_ELlu5vc-EoKw&usqp=CAU">
+            <p class="leading-relaxed">The post reignited debate around artificial intelligence (AI) ethics and "shady"
+              company dealings behind closed doors among Musk's host of followers. Many agreed with wanting to know the
+              closed-door reasons behind Altman's sudden dismissal, while others posted an older Musk interview where he
+              "predicted" Microsoft would "soon take control" of OpenAI..</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Alan Musk</h2>
+            <p class="text-gray-500">CEO Space</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="https://cdn.britannica.com/81/191581-050-8C0A8CD3/Alan-Turing.jpg">
+            <p class="leading-relaxed">In artificial intelligence, machines are made to behave in wondrous ways, often
+              sufficient to dazzle even the most experienced observer. But once a particular program is unmasked, once
+              its inner workings are explained, its magic crumbles away; The observer says to himself "I could have
+              written that". With that thought.</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Alan Turing</h2>
+            <p class="text-gray-500">Computer Science Expert</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+      <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+        <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
+      </div>
+      <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+            <path
+              d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+            </path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+            <span class="title-font font-medium">Google Play</span>
+          </span>
+        </button>
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+            <path
+              d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z">
+            </path>
+            <path
+              d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z">
+            </path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">Download on the</span>
+            <span class="title-font font-medium">App Store</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
